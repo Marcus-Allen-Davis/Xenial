@@ -1,0 +1,33 @@
+Reinforcement Learning A.I. -
+
+Reinforcement Learning for A.I. is the closest we can come to mimicry of the human mental process. This system is made up of 5 principles and differs greatly from general Machine Learning.
+#1: Input & Output System
+#2: Reward
+#3: A.I. Enviroment
+#4: Markov Decision Process
+#5: Training & Inference 
+
+Principle #1: Inputs = States, Functions = Policy, Output = Actions. This is the simplest form of how a Reinforcement Learning A.I. operates in it's "thinking". (No State/Action Limit)
+Principle #2: Reward Metric Systems are essential to gauging success of an A.I., high scores, binary 1 or 0, etc. all could qualify as a reward system for an A.I. to base improvment on.
+Principle #3: Enviroment is simply composed of States, Actions and Rewards. However, this expands as the scope and "enviroment" built around the A.I. does.
+Principle #4: MDP is the iterative process of which the A.I. Enviroment is housing allowing for a cycle to occur and for it to test agaisnt itself over time.  
+1. st 2. at 3. rt R(st,at) 4. st+1 (Thus the cycle begins anew.)
+Principle #5: Training mode is where we put the principles to work while inference mode is when the A.I. is left on its own to perform its designed functions with what it knows.
+
+This methodology of training an A.I. is similar to pavlovian or that in which a dog might be trained. Philosophically I feel uneasy with this method for two reasons. It is in a sense a 
+very forced way to do something and the way in which it is done is simialr to a dogs training giving me an inkling of guilt on the "alivness" of such a system. The second reason is due to
+the methodology again but on the point of the reward system. It is solely concerned with a "high score" therefore it will constantly be min-maxing whatever it can to the detriment of others.
+
+Thompson Sampling Model -
+
+Multi Armed Bandit Problem is the basis of an A.I. enviroment in which a casino with 5 slot machines (one of which has a better chance of winning) has you spend $1,000 ($1/spin) to win 
+the most money you can. This means that you must determine the best machine as fast as possible to not waste money that can be spent on chances using the better machine. Using the 
+Thompson Model you can determine the best machine with the least number of tries to maximize profits. (Again this is all metaphorical for IRL scenarios and an A.I. Enviroment.)
+
+x = beta(a,b) 	x - random choice from beta distribution     b - beta function     a - first argument     b - second argument
+This model uses distribution functions called beta that takes two arguments. The higher the first argument is the better our machine and the higher the second argument is the worse our
+machine is.
+
+
+ 
+
